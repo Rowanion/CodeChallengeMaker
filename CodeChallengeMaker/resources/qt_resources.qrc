@@ -1,0 +1,11 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource prefix="/">
+   <file>icons/bin.png</file>
+   <file>icons/delete.png</file>
+   <file>icons/export.png</file>
+   <file>icons/icons8-clear-60.png</file>
+   <file>icons/icons8-info-30.png</file>
+   <file>icons/icons8-restart-40.png</file>
+   <file>icons/icons8-zahnrad-64.png</file>
+</qresource>
+</RCC>

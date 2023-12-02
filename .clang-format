@@ -1,0 +1,47 @@
+---
+BasedOnStyle: Google
+AlignAfterOpenBracket: DontAlign
+AlignConsecutiveAssignments: 'true'
+AllowShortBlocksOnASingleLine: 'false'
+AllowShortCaseLabelsOnASingleLine: 'false'
+AllowShortFunctionsOnASingleLine: Inline
+AllowShortIfStatementsOnASingleLine: 'false'
+AllowShortLoopsOnASingleLine: 'false'
+AlwaysBreakAfterDefinitionReturnType: None
+AlwaysBreakTemplateDeclarations: 'true'
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterClass: true
+  AfterControlStatement: true
+  AfterEnum: true
+  AfterFunction: true
+  AfterNamespace: false
+  AfterStruct: true
+  AfterUnion: true
+  BeforeCatch: true
+  BeforeElse: true
+  IndentBraces: false
+ColumnLimit: '120'
+Cpp11BracedListStyle: 'true'
+Language: Cpp
+MaxEmptyLinesToKeep: '2'
+SpaceBeforeParens: Never
+SpacesInParentheses: false
+Standard: Cpp11
+TabWidth: '4'
+UseTab: Never
+IncludeCategories:  
+  - Regex:           '^<.+\/'
+    Priority:        3
+  - Regex:           '^<*'
+    Priority:        4
+  - Regex:           '.*'
+    Priority:        5
+IncludeIsMainRegex: '(_p)?$'
+IndentWidth: '3'
+ConstructorInitializerAllOnOneLineOrOnePerLine: true
+BreakConstructorInitializersBeforeComma: true
+BreakBeforeBinaryOperators: 'NonAssignment'
+AccessModifierOffset: -3
+DerivePointerAlignment: 'false'
+PointerAlignment : 'Left'

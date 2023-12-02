@@ -1,0 +1,1 @@
+Paste the challenge's description here -> resources/descriptionFile.txt

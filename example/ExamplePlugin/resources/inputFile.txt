@@ -1,0 +1,1 @@
+paste the challenge's input here -> resources/inputFile.txt
