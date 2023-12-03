@@ -29,7 +29,7 @@
        </property>
        <layout class="QVBoxLayout" name="verticalLayout_2">
         <item>
-         <widget class="QPlainTextEdit" name="pte_input"/>
+         <widget class="CodeEditor" name="pte_input"/>
         </item>
        </layout>
       </widget>
@@ -92,6 +92,13 @@
    </property>
   </action>
  </widget>
+ <customwidgets>
+  <customwidget>
+   <class>CodeEditor</class>
+   <extends>QPlainTextEdit</extends>
+   <header>CodeEditor.h</header>
+  </customwidget>
+ </customwidgets>
  <resources>
   <include location="../../resources/qt_resources.qrc"/>
  </resources>
