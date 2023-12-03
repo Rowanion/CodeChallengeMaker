@@ -62,6 +62,9 @@ CodeEditor::CodeEditor(QWidget* parent /*= nullptr*/) : QPlainTextEdit(parent)
    connect(this, &CodeEditor::updateRequest, this, &CodeEditor::updateLineNumberArea);
 
    updateLineNumberAreaWidth(0);
+
+   QTextDocument* doc = document();
+   doc->setDefaultFont(QFontDatabase::systemFont(QFontDatabase::FixedFont));
 }
 
 int CodeEditor::lineNumberAreaWidth()
