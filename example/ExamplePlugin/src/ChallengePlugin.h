@@ -1,7 +1,7 @@
 /**
  * Copyright(c) 2023 Timo Wiesemann. All rights reserved.
  */
- 
+
 #pragma once
 
 #include <QtCore/QObject>
@@ -26,7 +26,7 @@ public:
    virtual QString challengeInput() const override;
 
 public:
-   virtual ChallengeResult runChallenge(const QString& _pInput) const override;
+   virtual ChallengeResult runChallenge(const QString& _pInput) override;
    /** end of IChallengePlugin interface */
 
 private:

@@ -41,7 +41,7 @@ QString ChallengePlugin::challengeInput() const
    return in.readAll();
 }
 
-ChallengeResult ChallengePlugin::runChallenge(const QString& _pInput) const
+ChallengeResult ChallengePlugin::runChallenge(const QString& _pInput)
 {
    ChallengeResult result;
    result.output = QStringLiteral("ExamplePlugin: \n\n") + _pInput;

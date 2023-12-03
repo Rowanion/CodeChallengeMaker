@@ -18,11 +18,11 @@ struct ChallengeResult
 class IChallengePlugin
 {
 public:
-   virtual ~IChallengePlugin() = default;
+   virtual ~IChallengePlugin()            = default;
    virtual QString challengeTitle() const = 0;
    virtual QString challengeDescription() const { return {}; };
    virtual QString challengeInput() const { return {}; };
-   virtual ChallengeResult runChallenge(const QString& _pInput) const = 0;
+   virtual ChallengeResult runChallenge(const QString& _pInput) = 0;
 };
 
 #define IChallengePlugin_iid "com.CodeChallengeMaker.IChallengePlugin"
